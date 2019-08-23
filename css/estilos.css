@@ -55,8 +55,26 @@ header a:hover{
 	color: #ccc;
 	font-weight: bold;
 }
+.integrantes{
+    background-image: url("../img/0.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15%;
+    color: white;
 
-
+}
+.int{
+	text-align: center;
+    margin: auto;
+    background: #abbef296;
+    padding: 3%;
+}
+.int p{
+	font-size: 21px;
+    color: #2041b1;
+}
 #cabecera{
     text-align: center;
     color: #e2d7fd;
@@ -180,5 +198,5 @@ footer{
     font-size: 17px;
     color: white;
     background: #000066;
-    margin-top: 2%;
+   /* margin-top: 2%; */
 }
