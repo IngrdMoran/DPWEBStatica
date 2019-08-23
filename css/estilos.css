@@ -1,0 +1,124 @@
+body{
+	font: 15px Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color:   #4080f2;
+}
+.contenedor2{
+	text-align: center;
+	color:#e44d;
+	font: Andalus,Arial;
+}
+/*Encabezado*/
+header{
+	background-color: #000066;
+	color: #fff;
+	padding-top: 30px; 
+	padding-left: 1%;
+	min-height: 70px;
+	/*padding: 2%;*/
+	border-bottom: 5px solid  #cc47d6;
+}
+
+header a{
+color: #fff;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 16px;
+}
+
+header li{
+float: left;
+display: inline;
+padding: 0 20px 0 20px;
+}
+
+header #marca{
+	float: left;
+}
+
+header #marca h1{
+	margin:0;
+}
+
+header nav{
+	float: right;
+	margin top:10px;
+}
+
+header .resaltado, header .actual a{
+color:  #ffcc00;
+font-weight: bold;
+
+}
+header a:hover{
+	color: #ccc;
+	font-weight: bold;
+}
+
+
+.slider1{
+	width: 85%;
+	margin: auto;
+	height: 300px;
+	overflow: hidden;
+}
+
+.slider1 ul{
+	display: flex;
+	padding: 0;
+	width: 400%;
+
+	animation: cambios 20s infinite alternate;
+	animation-timing-function: ease-in-out;
+}
+
+.slider1 li{
+	width: 100%;
+	list-style: none;
+}
+
+.slider1 img{
+	width: 100%;
+}
+
+@keyframes cambios{
+	0%{ margin-left: 0; }
+	20%{margin-left: 0;}
+
+	25%{margin-left: -100%;}
+	45%{margin-left: -100%;}
+
+	50%{margin-left: -200%;}
+	70%{margin-left: -200%;}
+
+	75%{margin-left: -300%;}
+	100%{margin-left: -300%;}
+}
+
+.lienzo{
+	width: 82%;
+	background-color: #E0F8F1;
+	font-size: 105%;
+	margin: 0 auto;
+	color: #19070B; 
+	text-align: left;
+	border-radius:20px;
+	padding: 25px; 
+	box-shadow: 0px 0px 20px rgba(0,0,0.5,0.5 );
+	font-family: serif;
+}
+
+.lienzo h3{
+	text-align: center;
+}
+
+
+footer{
+	padding: 3%;
+    letter-spacing: 1px;
+    font-size: 17px;
+    color: white;
+    background: #000066;
+    margin-top: 2%;
+}
